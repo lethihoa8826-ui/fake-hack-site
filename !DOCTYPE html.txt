@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trang bị hack!</title>
+  <style>
+    body {
+      background: black;
+      color: lime;
+      font-family: monospace;
+      text-align: center;
+      padding-top: 100px;
+    }
+    .blink {
+      animation: blink 1s infinite;
+    }
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="blink">HACKED BY [Tên bạn]</h1>
+  <p>Đừng lo, đây chỉ là trang web demo vui thôi 😁</p>
+  <script>
+    alert("Trang web đã bị hack!!!");
+  </script>
+</body>
+</html>
